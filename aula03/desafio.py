@@ -1,6 +1,7 @@
 import re
 
 def validar_nome(nome):
+   
     if nome.isdigit():
         raise ValueError('Você digitou seu nome errado. Não deve conter apenas números.')
     elif len(nome.strip()) == 0:
@@ -20,6 +21,7 @@ def validar_bonus(bonus):
     elif bonus < 0:
         raise ValueError('O valor do bônus não pode ser negativo.')
     return bonus
+
 
 try:
     # Validação do nome
