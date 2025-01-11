@@ -2,8 +2,6 @@ import pandas as pd
 import os 
 import glob 
 
-
-
 # Função de extract que le e consolida os json
 pasta = 'data'
 arquivos_json = glob.glob(os.path.join(pasta, '*.json'))
