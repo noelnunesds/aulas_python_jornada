@@ -9,3 +9,4 @@ logger.add(
     format="{time} <r>{level}</r> <g>{message}<g/> {file}",
     level="CRITICAL"
 )
+
